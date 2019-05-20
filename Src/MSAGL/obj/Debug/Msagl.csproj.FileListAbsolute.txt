@@ -1,0 +1,10 @@
+C:\Users\lxl_t\Downloads\DomainAnalysis-tool\MSAGL\bin\Debug\Microsoft.Msagl.dll.config
+C:\Users\lxl_t\Downloads\DomainAnalysis-tool\MSAGL\bin\Debug\Microsoft.Msagl.XML
+C:\Users\lxl_t\Downloads\DomainAnalysis-tool\MSAGL\bin\Debug\Microsoft.Msagl.dll
+C:\Users\lxl_t\Downloads\DomainAnalysis-tool\MSAGL\bin\Debug\Microsoft.Msagl.pdb
+C:\Users\lxl_t\Downloads\DomainAnalysis-tool\MSAGL\obj\Debug\Msagl.csprojAssemblyReference.cache
+C:\Users\lxl_t\Downloads\DomainAnalysis-tool\MSAGL\obj\Debug\Microsoft.Msagl.Strings.resources
+C:\Users\lxl_t\Downloads\DomainAnalysis-tool\MSAGL\obj\Debug\Msagl.csproj.GenerateResource.cache
+C:\Users\lxl_t\Downloads\DomainAnalysis-tool\MSAGL\obj\Debug\Msagl.csproj.CoreCompileInputs.cache
+C:\Users\lxl_t\Downloads\DomainAnalysis-tool\MSAGL\obj\Debug\Microsoft.Msagl.dll
+C:\Users\lxl_t\Downloads\DomainAnalysis-tool\MSAGL\obj\Debug\Microsoft.Msagl.pdb

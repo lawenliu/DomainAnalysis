@@ -1,0 +1,54 @@
+communication segment:communication,1;wireless,1;wifi,1;gateway,1;registration,1;gps,1;anntenna,1;cable,1;filter,1;base,1;station,1;spectrum,1;edge,1;message,1;emp,1;crc,1;envelop,1;header,1;footer,1;integrity,1;hmac,1;delivery,1;acknowledge,1;monitor,1;radio,1;mobile,1;mcp,1;frequency,1;bcp,1;local,1;routing,1;self-test,1;health,1;report,1;channel,1;cluster,1;cc,1;ground,1;turn-around,1;front,1;processor,1;fep,1;route,1;backbone,1;on-board,1;ptc,1;wayside,1;cmu,1;link,1;status,1;signal,1;strength,1;queuing,1;rule,1;logging,1;conversion,1;address,1;translation,1;security,1;interoperable,1;communications,1;itcc,1;messaging,1;sytem,1;itcm,1;peer,1;broadcast,1;transport,1;transformation,1;multi-transport,1;support,1;itcr,1;office,1;area,1;locomotive,1;ismp,1
+wayside segment:wayside,1;wayside,1;wiu,1;hmac,1;emp,1;wiustatus,1;heartbeat,1;beacon,1;vital,1;wsm,1;hazard,1;clock,1;synchronization,1;drift,1;microwiu,1;iwiu,1;ivpi,1;genracode,1;3,1;vitalnet,1;territory,1;overlay,1;microlok,1;ii,1;cpu,1;signal,1;point,1;radio,1;device,1;status,1;interlocking,1;communication,1;wcc,1;track,1;warrant,1;twc,1;message,1;relay,1;wsrs,1;unsubscribe,1;transponder,1;messaging,1;power,1;detector,1;wheel,1;impact,1;load,1;wild,1;temperature,1;wtd,1;output,1;software,1;version,1;universal,1;ut,1;convension,1;strain,1;gauge-based,1;proximity,1;sensor,1;current,1;itcsm,1;agent,1
+Locomotive segment:locomotive,1;segmentcutout,1;cut-out,1;cut,1;energy,1;horn,1;point,1;gateway,1;lig,1;edge,1;message,1;emp,1;class,1;c,1;distributed,1;power,1;1,1;dp1,1;2,1;dp2,1;d,1;messaging,1;i/0,1;handler,1;cyclic,1;redundancy,1;crc,1;departure,1;brake,1;dynamic,1;monitor,1;dbm,1;detect,1;status,1;broadcast,1;contributing,1;accumulate,1;dbm-to-dbm,1;communication,1;on-board,1;tractive,1;braking,1;effort,1;listener,1;port,1;transceiver,1;display,1;electronic,1;air,1;eab,1;hand,1;sticking,1;piston,1;travel,1;limit,1;pressure,1;pneumatic,1;ecp,1;car,1;device,1;ccd,1;heu,1;end-of-train,1;eot,1;line,1;dc,1;psc,1;terminator,1;backup,1;pb,1;board,1;obu,1;obc,1;enforcement,1;wheel,1;tachometer,1;cdu,1;human,1;machine,1;hmi,1;crew,1;acknowledge,1;navigation,1;bulletin,1;cancellation,1;track,1;authority,1;ptc,1;territory,1;park,1;log,1;off,1;map,1;event,1;recorder,1;oem,1;identifier,1;authorized,1;personnel,1;acquisition,1;edap,1;crashworthy,1;memory,1;cmm,1;preservation,1;post-accident,1;recovery,1;download,1;playback,1;rcl,1;lcon,1;cruise,1;engagine,1;disengaging,1;engaging,1;switch,1;hand-operated,1;circuit,1;heartbeat,1;response,1;cab,1;signal,1;curve,1;heading,1;gradient,1;permanent,1;speed,1;limits,1;tracking,1;crossing,1;activation,1;dp,1;function,1;logger,1;wvem,1;stop,1;out,1;notification,1;grade,1;failure,1;vital,1;vsp,1;intervention,1;isp,1;wsp,1;restriction,1;psr,1;temporary,1;tsr,1;lnet,1;gps,1;receiver,1;itcsm,1;agent,1;storage,1;off-board,1
+office segment, interoperable train control systems management, ITCSM:office,1;interoperable,1;itcsm,1; dispatch,1;authority,1;consist,1;bulletin,1;signal,1;crew,1;acknowledge,1;cancel,1;distribution,1;distribute,1;transfer,1;maintenance,1;protection,1;mwp,1;dispatcher,1;message,1;simulator,1;bo,1;sim,1;server,1;bos,1;rr,1;ismp,1;gateway,1;ag,1;send,1;emp,1;receive,1;encrypt,1;cek,1;agent,1;sma,1;itcsm,1;harness,1;kit,1;rollback,1;bootstrap,1;security,1;encryption,1;standard,1;aes,1;rivest,1;shamir,1;adleman,1;rsa,1;elliptical,1;curve,1;cryptography,1;ecc,1;opk,1;one,1;password,1;otup,1;signing,1;logger,1;synchronization,1;restriction,1;uninterruptible,1;power,1;ups,1;registry,1;ar,1;exchange,1;kes,1;public,1;smpk,1;diagnostic,1;event,1;states,1;status,1;update,1;access,1;database,1;track,1;authorities,1
+employee in charge portable remote terminal, EIC PRT:employee,1;charge,1;portable,1;terminal,1;eic,1;prt,1;communication,1;cbtc,1;authorities,1;wa,1;enforcement,1;wvem,1;gps,1;wlan,1;wwan,1;gateway,1;status,1;ptc,1;office,1;response,1;mwp,1;message,1;report,1;server,1;ack,1;locomotive,1
+Wireless network, wifi, wireless gateway:wireless,1;wifi,1;gatewayregistration,1
+GPS:gps,1
+anntenna, cable, filter:anntenna,1;cable,1;filter,1
+base station:base,1;station,1
+spectrum:spectrum,1
+edge message protocol, EMP:edge,1;message,1;empcrc,1;envelop,1;header,1;footer,1;integrity,1;hmac,1;delivery,1;acknowledge,1;emp,1;gateway,1;monitor,1
+radio:radio,1
+mobile:mobile,1;communication,1;mcp,1;frequency,1
+base communication package, BCP:base,1;communication,1;bcp,1; wireless,1;local,1;routing,1;radio,1;self-test,1;health,1;report,1;channel,1;monitor,1
+cluster controller, CC:cluster,1;ccground,1;base,1;station,1;turn-around,1
+front end processor, FEP:front,1;processor,1;fep,1;route,1;ground,1;self-test,1;health,1;report,1
+backbone communication network:backbone,1;communication,1;network,1; on-board,1;ptc,1;wayside,1
+communication management unit, CMU:communication,1;cmu,1; link,1;link,1;status,1;signal,1;strength,1;wireless,1;routing,1;queuing,1;rule,1;logging,1;conversion,1;address,1;translation,1;security,1
+interoperable train control communications system, ITCC:interoperable,1;itcc,1; messaging,1;itcm,1;delivery,1;message,1;peer,1;broadcast,1;transport,1;transformation,1;multi-transport,1;support,1;radio,1;itcr,1;office,1;area,1;base,1;station,1;locomotive,1;wayside,1
+ISMP message:ismp,1;message,1
+wayside interface unit, WIU:wayside,1;wiuhmac,1;emp,1;wiustatus,1;heartbeat,1;beacon,1;vital,1;wsm,1;hazard,1;clock,1;synchronization,1;drift,1;microwiu,1;iwiu,1;ivpi,1;genracode,1;3,1;vitalnet,1;wiu,1;territory,1;overlay,1;microlok,1;ii,1;cpu,1;signal,1;point,1;radio,1;device,1;status,1
+interlocking controller:interlocking,1
+wayside communication controller, WCC:wayside,1;communication,1;wcc,1
+signal controller:signal,1
+track, track warrant control, TWC:track,1;warrant,1;twc,1; track,1
+logic controller
+wayside status message, WSM:wayside,1;status,1;message,1;wsm,1
+wayside status relay, WSRS:wayside,1;status,1;relay,1;wsrs,1; wiustatus,1;wsrs,1
+transponder:transponder,1
+wayside messaging system:wayside,1;messaging,1
+power supply:power,1
+wayside detector:wayside,1;detector,1;wheel,1;impact,1;load,1;wild,1;temperature,1;wtd,1;hazard,1;output,1;software,1;version,1;clock,1;synchronization,1;universal,1;ut,1;convension,1;strain,1;gauge-based,1;proximity,1;sensor,1;current,1
+ITCSM agent:itcsm,1;agent,1
+cutout, cut-out, cut in:cutout,1;cut-out,1;cut,1
+energy management:energy,1
+horn:horn,1
+Control point:point,1
+locomotive interface gateway, LIG:locomotive,1;gateway,1;lig,1;edge,1;message,1;emp,1;class,1;c,1;distributed,1;power,1;1,1;dp1,1;2,1;dp2,1;d,1;messaging,1;i/0,1;handler,1;cyclic,1;redundancy,1;crc,1
+departure test:departure,1
+brake:braked,1;dynamic,1;brake,1;monitor,1;dbm,1;detect,1;status,1;broadcast,1;contributing,1;locomotive,1;accumulate,1;dbm-to-dbm,1;communication,1;on-board,1;tractive,1;braking,1;effort,1;listener,1;port,1;transceiver,1;display,1;electronic,1;air,1;eab,1;hand,1;sticking,1;piston,1;travel,1;limit,1;pressure,1;pneumatic,1;ecp,1;car,1;device,1;ccd,1;heu,1;end-of-train,1;eot,1;line,1;dc,1;power,1;psc,1;terminator,1;backup,1;pb,1
+On board unit, OBU,on-board computer, OBC:board,1;obu,1;on-board,1;obc,1;braking,1;enforcement,1;wheel,1;tachometer,1
+computer display unit, CDU:display,1;cdu,1
+human machine interface, HMI:human,1;machine,1;hmi,1;crew,1;acknowledge,1;navigation,1;energy,1;bulletin,1;cancellation,1;track,1;authority,1;enforcement,1;ptc,1;territory,1;park,1;log,1;off,1;departure,1;display,1;map,1
+event recorder:event,1;recorder,1;oem,1;identifier,1;authorized,1;personnel,1;acquisition,1;edap,1;message,1;emp,1;class,1;d,1;crashworthy,1;memory,1;cmm,1;preservation,1;post-accident,1;recovery,1;download,1;playback,1
+remote control locomotive, RCL:locomotive,1;rcl,1
+locomotive control, LCON:locomotive,1;lcon,1;cruise,1;engagine,1;disengaging,1;engaging,1;monitor,1;power,1;switch,1;hand-operated,1;track,1;circuit,1;heartbeat,1;message,1;response,1;status,1;line,1;cab,1;signal,1;curve,1;heading,1;gradient,1;permanent,1;speed,1;limits,1;tracking,1;crossing,1;activation,1;authority,1;distributed,1;dp,1;event,1;function,1;logger,1;enforcement,1;wvem,1;stop,1;bulletin,1;out,1;notification,1;grade,1;failure,1;vital,1;vsp,1;intervention,1;isp,1;wsp,1;restriction,1;psr,1;temporary,1;tsr,1;authorized,1
+locomotive network, LNET:locomotive,1;lnetgps,1;receiver,1
+data storage:storage,1
+equipment monitor
+off-board communication:off-board,1;communication,1
+dispatch system:dispatch,1;authority,1;consist,1;bulletin,1;signal,1;crew,1;acknowledge,1;cancel,1;distribution,1;distribute,1;transfer,1;maintenance,1;protection,1;mwp,1;dispatcher,1;message,1
+back office simulator, BO Sim,Back office server, BOS, back office system, RR BO:office,1;simulator,1;bo,1;sim,1;server,1;bos,1;rr,1;bo,1; interoperable,1;ismp,1;gateway,1;ag,1;send,1;emp,1;receive,1;encrypt,1;cek,1
+system management agent, SMA, ITCSM agent:agent,1;sma,1;itcsm,1;agenttest,1;harness,1;kit,1;rollback,1;bootstrap,1;security,1;encryption,1;standard,1;aes,1;rivest,1;shamir,1;adleman,1;rsa,1;elliptical,1;curve,1;cryptography,1;ecc,1;cek,1;opk,1;one,1;password,1;otup,1;signing,1
+generic logger:logger,1

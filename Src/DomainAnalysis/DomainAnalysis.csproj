@@ -1,0 +1,494 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FF055050-0358-48C4-9830-ACFCDD314412}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DomainAnalysis</RootNamespace>
+    <AssemblyName>DomainAnalysis</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\Images\owl.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="adodb1">
+      <HintPath>C:\Program Files (x86)\Microsoft.NET\Primary Interop Assemblies\adodb.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Code7248.word_reader, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>External\WordExtract\Code7248.word_reader.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.8.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Libs\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.pdfa, Version=5.5.8.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Libs\itextsharp.pdfa.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.xtra, Version=5.5.8.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Libs\itextsharp.xtra.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\..\..\Windows\assembly\GAC_MSIL\Microsoft.Office.Interop.Excel\15.0.0.0__71e9bce111e9429c\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.PowerPoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\..\..\Windows\assembly\GAC_MSIL\Microsoft.Office.Interop.PowerPoint\15.0.0.0__71e9bce111e9429c\Microsoft.Office.Interop.PowerPoint.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\..\..\Windows\assembly\GAC_MSIL\Microsoft.Office.Interop.Word\15.0.0.0__71e9bce111e9429c\Microsoft.Office.Interop.Word.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ComputeDocRank\DocSeqInRankingResult.cs" />
+    <Compile Include="DataPrepare\OutputMg.cs" />
+    <Compile Include="DataPrepare\FileMg.cs" />
+    <Compile Include="DocumentRanking\ClumpingRankDoc\ParseTopicTerms.cs" />
+    <Compile Include="DocumentRanking\ClumpingRankDoc\RankDocByClumping.cs" />
+    <Compile Include="DocumentRanking\ClumpingImprove\RankDocByClumpingDocLen.cs" />
+    <Compile Include="DocumentRanking\ClumpingImprove\RankDocByClumpingImprove.cs" />
+    <Compile Include="DocumentRanking\ClumpingImprove\RankDocByClumpingLessClumps.cs" />
+    <Compile Include="DocumentRanking\ClumpingRankDoc\RankingDocByClumpingCaleb.cs" />
+    <Compile Include="DocumentRanking\VSMRankDoc\NormalizeTopicRelevance.cs" />
+    <Compile Include="DocumentRanking\VSMRankDoc\TFIDF.cs" />
+    <Compile Include="DocumentRanking\VSMRankDoc\TopicDocRank.cs" />
+    <Compile Include="DocumentRanking\VSMRankDoc\VSM.cs" />
+    <Compile Include="ExtractContent\ExtractPDF.cs" />
+    <Compile Include="ExtractContent\MyLocationTextExtractionStrategy.cs" />
+    <Compile Include="ExtractContent\ExtractExcel.cs" />
+    <Compile Include="ExtractContent\ExtractMg.cs" />
+    <Compile Include="ExtractContent\ExtractPPT.cs" />
+    <Compile Include="ExtractContent\ExtractWord.cs" />
+    <Compile Include="ExtractContent\Preprocess\Porter2.cs" />
+    <Compile Include="ExtractContent\Preprocess\SemiClean.cs" />
+    <Compile Include="ExtractContent\Preprocess\StemFileDir.cs" />
+    <Compile Include="GenerateDataMg\GenerateAutoDataMg.cs" />
+    <Compile Include="GenerateDataMg\GenerateManualDataMg.cs" />
+    <Compile Include="Highlight\HighlightOffice\HighlightDoc.cs" />
+    <Compile Include="Highlight\HighlightOffice\HighlightPPT.cs" />
+    <Compile Include="Highlight\HighlightOffice\HighlightXLS.cs" />
+    <Compile Include="Highlight\HighlightPDF\HighlightPDFProcessor.cs" />
+    <Compile Include="Highlight\HighlightPDF\FutherLocationTextExtractionStrategy.cs" />
+    <Compile Include="Highlight\HighlightPDF\MyFilteredRenderListener.cs" />
+    <Compile Include="Highlight\ReadTargetTopicTerms.cs" />
+    <Compile Include="LabelTopicTerms\ExtractTopicTerms.cs" />
+    <Compile Include="LabelTopicTerms\KDDLabel.cs" />
+    <Compile Include="LabelTopicTerms\LabelDomainTopic.cs" />
+    <Compile Include="LabelTopicTerms\PrepareManualModel.cs" />
+    <Compile Include="LabelTopicTerms\PrepareTopicFile.cs" />
+    <Compile Include="LabelTopicTerms\TopicParaFreq.cs" />
+    <Compile Include="LabelTopicTerms\TopicSim.cs" />
+    <Compile Include="Models\BiNode.cs" />
+    <Compile Include="Models\TextWithRect.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RenderPrepare\RenderManualDataMg.cs" />
+    <Compile Include="RenderPrepare\RenderDataMg.cs" />
+    <Compile Include="Resources\Dialogs\AboutWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\Dialogs\AboutWindow.Designer.cs">
+      <DependentUpon>AboutWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Dialogs\ConfigureWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\Dialogs\ConfigureWindow.Designer.cs">
+      <DependentUpon>ConfigureWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Dialogs\GenerateManualDataWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\Dialogs\GenerateManualDataWizard.Designer.cs">
+      <DependentUpon>GenerateManualDataWizard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Dialogs\GenerateAutoDataWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\Dialogs\GenerateAutoDataWizard.Designer.cs">
+      <DependentUpon>GenerateAutoDataWizard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Dialogs\ImportManualDataWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\Dialogs\ImportManualDataWindow.Designer.cs">
+      <DependentUpon>ImportManualDataWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Dialogs\ImportAutoDataWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\Dialogs\ImportAutoDataWindow.Designer.cs">
+      <DependentUpon>ImportAutoDataWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Dialogs\MainWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\Dialogs\MainWindow.Designer.cs">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\NodeModel.cs" />
+    <Compile Include="Models\RelatedFileModel.cs" />
+    <Compile Include="Models\TreeElement.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\Dialogs\SummaryShow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\Dialogs\SummaryShow.Designer.cs">
+      <DependentUpon>SummaryShow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SummaryGeneration\CombineTerms.cs" />
+    <Compile Include="SummaryGeneration\GenerateComponentSummary.cs" />
+    <Compile Include="SummaryGeneration\IdentifyComParagraphs.cs" />
+    <Compile Include="SummaryGeneration\Matrix.cs" />
+    <Compile Include="SummaryGeneration\MMRSummary.cs" />
+    <Compile Include="SummaryGeneration\RelevantSummary.cs" />
+    <Compile Include="SummaryGeneration\VSM\ExtractSentenceVSM.cs" />
+    <Compile Include="SummaryGeneration\VSM\TF_IDF.cs" />
+    <Compile Include="ToolMg\UnzipToolMg.cs" />
+    <Compile Include="ToolMg\IExplorerMg.cs" />
+    <Compile Include="ToolMg\RToolMg.cs" />
+    <Compile Include="ToolMg\JNSPToolMg.cs" />
+    <Compile Include="ToolMg\TmtToolMg.cs" />
+    <Compile Include="Utils\Configures.cs" />
+    <Compile Include="Utils\Constants.cs" />
+    <Compile Include="Utils\DictionaryDecreasedSort.cs" />
+    <Compile Include="Utils\FileNameParse.cs" />
+    <Compile Include="Utils\FileOperators.cs" />
+    <Content Include="External\WordExtract\Code7248.word_reader.dll" />
+    <Content Include="Resources\Files\ReadMe.htm">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Files\ReadMe_files\colorschememapping.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Files\ReadMe_files\filelist.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Files\ReadMe_files\image001.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Files\ReadMe_files\image002.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Files\ReadMe_files\image003.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Files\ReadMe_files\image004.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Files\ReadMe_files\image005.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Files\ReadMe_files\image006.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Files\ReadMe_files\image007.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Files\ReadMe_files\image008.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Files\ReadMe_files\image009.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Files\ReadMe_files\image010.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Files\ReadMe_files\image011.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\Images\welcome0.PNG" />
+    <Content Include="Resources\Images\welcome1.png" />
+    <EmbeddedResource Include="Resources\Dialogs\AboutWindow.resx">
+      <DependentUpon>AboutWindow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Dialogs\ConfigureWindow.resx">
+      <DependentUpon>ConfigureWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Dialogs\GenerateManualDataWizard.resx">
+      <DependentUpon>GenerateManualDataWizard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Dialogs\GenerateAutoDataWizard.resx">
+      <DependentUpon>GenerateAutoDataWizard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Dialogs\ImportManualDataWindow.resx">
+      <DependentUpon>ImportManualDataWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Dialogs\ImportAutoDataWindow.resx">
+      <DependentUpon>ImportAutoDataWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Dialogs\MainWindow.resx">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Content Include="External\JnspTool\jnsp\Counter.class">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="External\JnspTool\jnsp\Dictionary.class">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="External\JnspTool\jnsp\Document.class">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="External\JnspTool\jnsp\NGram.class">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="External\JnspTool\jnsp\NGramSet.class">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="External\JnspTool\jnsp\NSIterator.class">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="External\JnspTool\jnsp\NSPOption.class">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="External\JnspTool\jnsp\Pair.class">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="External\JnspTool\jnsp\Statistic.class">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="External\JnspTool\jnsp\stat\Chi2D.class">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="External\JnspTool\jnsp\stat\Measure.class">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="External\JnspTool\jnsp\stat\MI2D.class">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="External\JnspTool\jnsp\stat\Phi2D.class">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="External\JnspTool\jnsp\stat\TScore2D.class">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="External\JnspTool\jnsp\stat\TScore3D.class">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="External\JnspTool\jnsp\Util.class">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="External\RTool\hierarchicalClustering.template">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="External\TmtTool\tmtTopicModeling.template">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="Resources\Dialogs\SummaryShow.resx">
+      <DependentUpon>SummaryShow.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Drawing\Drawing.csproj">
+      <Project>{b76f8f71-4b00-4242-be36-c9f0732511f7}</Project>
+      <Name>Drawing</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GraphViewerGDI\GraphViewerGDI.csproj">
+      <Project>{725cd2cb-cf37-414e-a5a6-f1d87d4d6ede}</Project>
+      <Name>GraphViewerGDI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MaterialSkin\MaterialSkin.csproj">
+      <Project>{8eb7611b-68cd-4b8b-987a-11717e2b250c}</Project>
+      <Name>MaterialSkin</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MSAGL\Msagl.csproj">
+      <Project>{415d3e3f-7105-46c1-84d2-7ecb34213d92}</Project>
+      <Name>Msagl</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="External\JnspTool\freqcombo.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="External\JnspTool\lib\tokenfilter.jar">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="External\JnspTool\option.template">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="External\JnspTool\stopwords.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="External\Libs\itextsharp.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="External\Libs\itextsharp.pdfa.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="External\Libs\itextsharp.xtra.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="External\TmtTool\tmtTool.jar">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\Files\ReadMe.docx" />
+    <None Include="Resources\Files\Eula.rtf" />
+    <Content Include="Resources\Files\ReadMe_files\themedata.thmx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Files\ReadMe.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\Images\owl.ico" />
+    <None Include="Resources\Images\owl.png" />
+    <None Include="Resources\Images\welcome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Access">
+      <Guid>{4AFFC9A0-5F99-101B-AF4E-00AA003F0F07}</Guid>
+      <VersionMajor>9</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Access.Dao">
+      <Guid>{4AC9E1DA-5BAD-4AC7-86E3-24F4CDCECA28}</Guid>
+      <VersionMajor>12</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

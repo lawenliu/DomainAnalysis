@@ -1,0 +1,21 @@
+window = {WindowNumberPlaceHolder}
+
+freqComboFile = {FreqComboPlaceHolder}
+
+dataDir = {TxtCleanDataDirPlaceHolder}
+	
+cntFile = {CNTFileNamePlaceHolder}
+	
+stopFile = {StopWordPlaceHolder}
+	
+freqCutOff = 500
+	
+rareCutOff = 7
+	
+statFile = sort-tscore2d
+	
+statlib = TScore2D
+	
+agressiveCount = false
+	
+ngramCache = true

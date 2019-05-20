@@ -1,0 +1,1252 @@
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node COLOR="#000000" CREATED="1449087373275" ID="1" MODIFIED="1449422778155" STYLE="bubble" TEXT="PTC(positive train control, electronic train management system, ETMS, vital positive train control, incremental train control system, ITCS, ACSES, advanced civil speed enforcement system, interoperable train control, ITC)">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449087373276" ID="5" MODIFIED="1449422667865" POSITION="right" TEXT="communication segment">
+<cloud/>
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449087373276" ID="39" MODIFIED="1451144227051" TEXT="Wireless network">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449199870915" ID="ID_1438556981" MODIFIED="1449422667865" TEXT="registration table">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1451144200319" ID="ID_138314419" MODIFIED="1451144202320" TEXT="wifi"/>
+<node CREATED="1451144211933" ID="ID_1566829036" MODIFIED="1451144215964" TEXT="wireless gateway"/>
+</node>
+<node CREATED="1449087373276" ID="41" MODIFIED="1450804719469" TEXT="antenna">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1450804686323" ID="ID_263752596" MODIFIED="1450804746100" TEXT="cable">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450804697728" ID="ID_1653220031" MODIFIED="1450804746101" TEXT="filter">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450804702397" ID="ID_1314257356" MODIFIED="1450804746101" TEXT="transmission">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449087373276" ID="40" MODIFIED="1450816925411" TEXT=" GPS ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450809081666" ID="ID_447078337" MODIFIED="1450816911027" TEXT="wifi antenna">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450809092050" ID="ID_376426920" MODIFIED="1450816914546" TEXT="DCS Antenna">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449087373276" ID="42" MODIFIED="1449422667865" TEXT="base station">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449087373276" ID="43" MODIFIED="1449422667865" TEXT="spectrum">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449087373276" ID="44" MODIFIED="1451144171639" TEXT="edge message protocol">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449111240868" ID="ID_1620391804" MODIFIED="1450816931851" TEXT=" CRC ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449111363640" ID="ID_1986269422" MODIFIED="1450820088396" TEXT="message envelope, header, footer">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449111436477" ID="ID_462679093" MODIFIED="1451144254748" TEXT="data integrity">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449112431496" ID="ID_527151965" MODIFIED="1449422667865" TEXT="delivery acknowledge">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449113029241" ID="ID_593536006" MODIFIED="1449422667865" TEXT="owning organization">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449113108786" ID="ID_1203696859" MODIFIED="1449422667865" TEXT="EMP Message gateway">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449113137490" ID="ID_242595286" MODIFIED="1449422667865" TEXT="EMP Message Monitor">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1451144175237" ID="ID_1359523903" MODIFIED="1451144187273" TEXT=" EMP ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1451144238306" ID="ID_1000573603" MODIFIED="1451144351790" TEXT=" HMAC ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449087373276" ID="46" MODIFIED="1449422667865" TEXT="radio">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449088899833" ID="ID_849244860" MODIFIED="1449422667865" TEXT="mobile">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449155170156" ID="ID_735719500" MODIFIED="1451144331129" TEXT="mobile communication package">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449155185222" ID="ID_1450634236" MODIFIED="1449422667865" TEXT="frequency controller">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1451144333903" ID="ID_587370656" MODIFIED="1451144346423" TEXT=" MCP ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449092165102" ID="ID_1539222544" MODIFIED="1451144312690" TEXT="base communication package">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449201138440" ID="ID_453106881" MODIFIED="1449422667865" TEXT="wireless interface">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449201156591" ID="ID_1817876350" MODIFIED="1449422667865" TEXT="local routing">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449201169991" ID="ID_553362592" MODIFIED="1449422667865" TEXT="radio interface">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449201178411" ID="ID_117399889" MODIFIED="1449422667865" TEXT="self-test">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449201205592" ID="ID_1779339754" MODIFIED="1449422667865" TEXT="health report">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449201236306" ID="ID_95659218" MODIFIED="1449422667865" TEXT="channel health monitor">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1451144266235" ID="ID_414040689" MODIFIED="1451144321683" TEXT=" BCP ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449092202588" ID="ID_661924565" MODIFIED="1451144393839" TEXT="cluster controller">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449200668535" ID="ID_571944673" MODIFIED="1449422667865" TEXT="ground network control">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449200725458" ID="ID_914947206" MODIFIED="1449422667865" TEXT="base station management">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449200950986" ID="ID_1762390095" MODIFIED="1449422667865" TEXT="turn-around">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1451144362155" ID="ID_1122752008" MODIFIED="1451144398747" TEXT=" CC ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449092233690" ID="ID_710047169" MODIFIED="1451144412130" TEXT="front end processor">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449200069874" ID="ID_64311501" MODIFIED="1449422667865" TEXT="route">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449200170351" ID="ID_1908226133" MODIFIED="1449422667865" TEXT="ground user interface">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449200443060" ID="ID_286744566" MODIFIED="1449422667865" TEXT="self-test">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449200478841" ID="ID_1196425028" MODIFIED="1449422667865" TEXT="health report">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1451144415893" ID="ID_240449373" MODIFIED="1451144426643" TEXT="  FEP ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449176750709" ID="ID_1604588405" MODIFIED="1449422667864" TEXT="backbone communication network">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449177627580" ID="ID_931983749" MODIFIED="1449422667864" TEXT="on-board PTC data communication package">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449177708416" ID="ID_1232201110" MODIFIED="1449422667864" TEXT="wayside PTC data communication package">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449199399628" ID="ID_1883369334" MODIFIED="1451144450615" TEXT="communication management unit">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449199552285" ID="ID_1534096978" MODIFIED="1449422667864" TEXT="link management">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449199593422" ID="ID_1808758884" MODIFIED="1449422667864" TEXT="link status">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449199600581" ID="ID_930146791" MODIFIED="1449422667864" TEXT="signal strength">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449199610843" ID="ID_1552295507" MODIFIED="1449422667864" TEXT="wireless link">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449199661614" ID="ID_1173662283" MODIFIED="1449422667864" TEXT="routing">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449199685824" ID="ID_949742732" MODIFIED="1449422667864" TEXT="queuing">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449199706518" ID="ID_1666774453" MODIFIED="1449422667864" TEXT="rule">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449199740295" ID="ID_847252889" MODIFIED="1449422667864" TEXT="logging">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449199747590" ID="ID_1681074550" MODIFIED="1449422667864" TEXT="protocol conversion">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449199787052" ID="ID_869562349" MODIFIED="1449422667864" TEXT="address translation">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449199826651" ID="ID_1527725928" MODIFIED="1449422667864" TEXT="security">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1451144437951" ID="ID_1959654935" MODIFIED="1451144456354" TEXT=" CMU ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449242069725" ID="ID_1763634420" MODIFIED="1451144489761" TEXT="interoperable train control communications system">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449242145057" ID="ID_1782407366" MODIFIED="1451144554649" TEXT="messaging system">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449242464398" ID="ID_672509632" MODIFIED="1449422667864" TEXT="route">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449242470478" ID="ID_1005184282" MODIFIED="1449422667864" TEXT="delivery of message">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449242499077" ID="ID_172664261" MODIFIED="1449422667864" TEXT="peer to peer broadcast">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449242513196" ID="ID_1010913040" MODIFIED="1449422667864" TEXT="transport selection">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449242525011" ID="ID_774313699" MODIFIED="1449422667864" TEXT="protocol transformation">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449242539546" ID="ID_915299443" MODIFIED="1449422667864" TEXT="multi-transport support">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1451144535250" ID="ID_984464129" MODIFIED="1451144559720" TEXT=" ITCM ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449242158112" ID="ID_820227272" MODIFIED="1451144511068" TEXT="radio network ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449242242027" ID="ID_476444258" MODIFIED="1449422667864" TEXT="office area">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449242272097" ID="ID_559025573" MODIFIED="1449422667864" TEXT="data center">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449242278721" ID="ID_293177507" MODIFIED="1449422667864" TEXT="base station">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449242252187" ID="ID_1684683633" MODIFIED="1449422667864" TEXT="remote area">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1451144469658" ID="ID_747143683" MODIFIED="1451144496417" TEXT=" ITCC ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1451144514344" ID="ID_533797861" MODIFIED="1451144600750" TEXT="  ITCR ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449413683655" ID="ID_1862715704" MODIFIED="1449422667864" TEXT="ISMP message">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449087373276" ID="4" MODIFIED="1449422667864" POSITION="right" TEXT="wayside segment">
+<cloud/>
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449087373276" ID="30" MODIFIED="1451144652794" TEXT="wayside interface unit">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449113245021" ID="ID_918800373" MODIFIED="1450817023948" TEXT=" HMAC ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449113470113" ID="ID_104832297" MODIFIED="1450817029614" TEXT=" EMP ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449113573556" ID="ID_691284136" MODIFIED="1449422667864" TEXT="WIUStatus">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449113619455" ID="ID_1107244411" MODIFIED="1449422667864" TEXT="heartbeat beacon">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449113723350" ID="ID_1821219789" MODIFIED="1449422667864" TEXT="vital operation">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449113808023" ID="ID_149044449" MODIFIED="1450817036328" TEXT=" WSM ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449113873668" ID="ID_65536504" MODIFIED="1449422667864" TEXT="hazard indicator">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449113907910" ID="ID_298645460" MODIFIED="1449422667864" TEXT="clock synchronization">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449114244047" ID="ID_705239426" MODIFIED="1449422667864" TEXT="clock drift">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449175577932" ID="ID_960815891" MODIFIED="1449422667864" TEXT="microWIU">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449175585598" ID="ID_1567293983" MODIFIED="1450817042391" TEXT="iWIU ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449175594652" ID="ID_692466511" MODIFIED="1450804913294" TEXT="VitalNet WIU Territory Model">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449176973545" ID="ID_340744641" MODIFIED="1449422667862" TEXT="wayside signal location">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449176988432" ID="ID_771707035" MODIFIED="1449422667862" TEXT="control point">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449177043216" ID="ID_1574152317" MODIFIED="1449422667862" TEXT="radio package">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449177063249" ID="ID_1928453253" MODIFIED="1449422667862" TEXT="location information">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449177072065" ID="ID_266750222" MODIFIED="1449422667862" TEXT="wayside device status">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1450804864174" ID="ID_146853738" MODIFIED="1450804958718" TEXT="VitalNet WIU Single Overlay model">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450804882584" ID="ID_1491941403" MODIFIED="1450804958718" TEXT="MicroLoc II VitalNet CPU">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450804919360" ID="ID_486646357" MODIFIED="1451144624810" TEXT=" iVPI ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450804926794" ID="ID_1893354206" MODIFIED="1450804958718" TEXT="Genracode 3">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1451144637029" ID="ID_1343038752" MODIFIED="1451144659185" TEXT=" WIU ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449087373276" ID="31" MODIFIED="1449422667862" TEXT="interlocking controller">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449087373276" ID="54" MODIFIED="1450817052134" TEXT="wayside communication controller, WCC ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449087373276" ID="32" MODIFIED="1449422667862" TEXT="signal controller">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449087373276" ID="33" MODIFIED="1451144711464" TEXT="track warrant control">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449175193334" ID="ID_200607035" MODIFIED="1449422667862" TEXT="track segment data">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450805176384" ID="ID_696008250" MODIFIED="1450805805221" TEXT="track warrant">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450805201981" ID="ID_1677125774" MODIFIED="1450805805221" TEXT="movement authority">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450805302451" ID="ID_1021518605" MODIFIED="1450817067026" TEXT="automatic block signal, ABS ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450805427326" ID="ID_1723906515" MODIFIED="1450817069155" TEXT="centralized traffic control, CTC ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450805610027" ID="ID_1548555488" MODIFIED="1450817070992" TEXT="direct traffic control, DTC ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450805623484" ID="ID_522484218" MODIFIED="1450817072613" TEXT="Form D control system, DCS ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450805635772" ID="ID_1247924174" MODIFIED="1450817074241" TEXT="occupancy control system, OCS ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450805758170" ID="ID_1659155856" MODIFIED="1450805805220" TEXT="mandatory directive">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1451144696095" ID="ID_1993804249" MODIFIED="1451144716585" TEXT=" TWC ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449087373276" ID="34" MODIFIED="1449422667862" TEXT="logic controller">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449087373276" ID="36" MODIFIED="1450817078681" TEXT="wayside status message, WSM ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449087373276" ID="37" MODIFIED="1451144758120" TEXT="wayside status relay">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449175398488" ID="ID_909453806" MODIFIED="1449422667862" TEXT="WIUStatus">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449175416906" ID="ID_585547215" MODIFIED="1449422667862" TEXT="WSRS Subscribe">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449175442018" ID="ID_1002219532" MODIFIED="1449422667862" TEXT="WSRS Unsubscribe">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1451144739465" ID="ID_216122661" MODIFIED="1451144749978" TEXT=" WSRS ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449087373276" ID="48" MODIFIED="1449422667862" TEXT="transponder">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449090916341" ID="ID_1963454025" MODIFIED="1449422667862" TEXT="wayside messaging system">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449158435650" ID="ID_333770365" MODIFIED="1449422667862" TEXT="power supply">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449411558361" ID="ID_1535486442" MODIFIED="1449422667862" TEXT="wayside detector">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449411567635" ID="ID_1467425757" MODIFIED="1450817087727" TEXT="wheel impact load detector, WILD ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449411592282" ID="ID_175007735" MODIFIED="1450817089385" TEXT="wheel temperature detector, WTD ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449411621459" ID="ID_1158397457" MODIFIED="1449422667862" TEXT="hazard detector">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449411679318" ID="ID_204306563" MODIFIED="1449422667862" TEXT="automated equipment identification">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449411721305" ID="ID_633917361" MODIFIED="1449422667862" TEXT="output processing">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449411855696" ID="ID_904584260" MODIFIED="1449422667862" TEXT="software version control">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449411864359" ID="ID_406434531" MODIFIED="1449422667862" TEXT="clock synchronization">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449411896923" ID="ID_670306676" MODIFIED="1450817093135" TEXT="universal time, UT ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449411919588" ID="ID_1912782241" MODIFIED="1449422667862" TEXT="train side naming convension">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449411785952" ID="ID_1382315944" MODIFIED="1449422667862" TEXT="strain gauge-based detector">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449087373277" ID="55" MODIFIED="1449422667862" TEXT="proximity sensor">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449158411557" ID="ID_1342592305" MODIFIED="1449422667862" TEXT="current sensor">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449413220153" ID="ID_1513031905" MODIFIED="1449422667862" TEXT="ITCSM agent">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449087373277" ID="2" MODIFIED="1449422667862" POSITION="right" TEXT="Locomotive segment">
+<cloud/>
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449087373277" ID="12" MODIFIED="1449422667862" TEXT="cutout, cut-out, cut in">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449087373277" ID="18" MODIFIED="1449422667862" TEXT="energy management">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449087373277" ID="14" MODIFIED="1449422667862" TEXT="horn">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449087373277" ID="20" MODIFIED="1449422667862" TEXT="Control point">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449087373277" ID="24" MODIFIED="1451144801333" TEXT="locomotive interface gateway">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449247643197" ID="ID_1058292158" MODIFIED="1449785504408" TEXT="edge message protocol,EMP ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449247652196" ID="ID_306984928" MODIFIED="1449843156017" TEXT="Class C message">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449843190175" ID="ID_1232633985" MODIFIED="1450817105417" TEXT="Distributed power 1, DP1 ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449843221758" ID="ID_1024872245" MODIFIED="1450817107333" TEXT="Distributed power 2, DP2 ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449247661364" ID="ID_777866056" MODIFIED="1449785554284" TEXT="Class D Messaging">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449247675251" ID="ID_719290913" MODIFIED="1449422667861" TEXT="I/0 Handler">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449785519528" ID="ID_1335070807" MODIFIED="1450817110226" TEXT="cyclic redundancy check, CRC ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1451144787415" ID="ID_586080843" MODIFIED="1451144806958" TEXT=" LIG ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449087373277" ID="21" MODIFIED="1449422667861" TEXT="departure test">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449087373277" ID="10" MODIFIED="1449422667861" TEXT="brake">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449152940405" ID="ID_1087575474" MODIFIED="1451144833901" TEXT="dynamic brake monitor">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449153024194" ID="ID_606509721" MODIFIED="1449422667861" TEXT="detect status">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449153053089" ID="ID_112874360" MODIFIED="1449422667861" TEXT="broadcast information">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449153101670" ID="ID_1341475466" MODIFIED="1449422667861" TEXT="contributing locomotive">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449153120309" ID="ID_1494188335" MODIFIED="1449422667861" TEXT="accumulate parameters">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449153206754" ID="ID_963198108" MODIFIED="1449422667861" TEXT="DBM-to-DBM communication interface">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449153242569" ID="ID_314972430" MODIFIED="1449422667861" TEXT="DBM to on-board computer">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449153278744" ID="ID_1927720991" MODIFIED="1449422667861" TEXT="tractive braking effort">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449153335525" ID="ID_1438529780" MODIFIED="1449422667861" TEXT="DBM listener port">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449153480711" ID="ID_1977412985" MODIFIED="1449422667861" TEXT="transceiver">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449153594020" ID="ID_577370065" MODIFIED="1449422667861" TEXT="control unit">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449153614755" ID="ID_1511903705" MODIFIED="1449422667861" TEXT="display unit">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449153694488" ID="ID_986114761" MODIFIED="1449422667861" TEXT="dynamic braking effort">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1451144837585" ID="ID_1136587714" MODIFIED="1451144848848" TEXT=" DBM ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449152975173" ID="ID_1801317105" MODIFIED="1451144866679" TEXT="electronic air brake">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449154268736" ID="ID_673768963" MODIFIED="1449422667861" TEXT="hand brake">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449154278682" ID="ID_94323623" MODIFIED="1449422667861" TEXT="sticking brake">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449154343015" ID="ID_156870870" MODIFIED="1449422667861" TEXT="piston travel limit">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449154403781" ID="ID_957724638" MODIFIED="1449422667861" TEXT="air pressure">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1451144872107" ID="ID_426483905" MODIFIED="1451144883738" TEXT=" EAB  ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449152990268" ID="ID_1088836833" MODIFIED="1450817127519" TEXT="pneumatic brake, electronically controlled pneumatic, ECP ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449156349160" ID="ID_47825466" MODIFIED="1449422667861" TEXT="electronically controlled brake">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449156569043" ID="ID_972383220" MODIFIED="1450817129420" TEXT="car control device, CCD ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449156643045" ID="ID_1265978844" MODIFIED="1450817132474" TEXT="head end unit, HEU ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449156731562" ID="ID_1278118532" MODIFIED="1450817135146" TEXT="end-of-train device, EOT ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449156758885" ID="ID_1382779674" MODIFIED="1449422667861" TEXT="train line">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449156800746" ID="ID_1422701840" MODIFIED="1449422667861" TEXT="DC Power supply">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449156816522" ID="ID_1172287417" MODIFIED="1450817139460" TEXT="power supply controller, PSC ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449156872850" ID="ID_1980550758" MODIFIED="1449422667861" TEXT="head end train line terminator">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449156891629" ID="ID_1959605786" MODIFIED="1450817142116" TEXT="pneumatic backup, PB ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449156938860" ID="ID_191207403" MODIFIED="1449422667861" TEXT="operative brake">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449246681724" ID="ID_1047033653" MODIFIED="1449422667861" TEXT="running brake">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449087373277" ID="9" MODIFIED="1451144905614" TEXT="On board unit">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449177812183" ID="ID_1881335773" MODIFIED="1449422667861" TEXT="central processing unit">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449177845440" ID="ID_1249108852" MODIFIED="1449422667861" TEXT="braking algorithm">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449177994537" ID="ID_899429332" MODIFIED="1449422667861" TEXT="enforcement braking">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449178067496" ID="ID_752340138" MODIFIED="1450806462484" TEXT="wheel tachometer,wheel diameter">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450805833677" ID="ID_1314712886" MODIFIED="1450806481937" TEXT="onboard computer">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450805842445" ID="ID_1541279339" MODIFIED="1450806481937" TEXT="locomotive computer">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450805865046" ID="ID_1846375987" MODIFIED="1450806481937" TEXT="standard processor module">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450805977595" ID="ID_1337494369" MODIFIED="1450809607412" TEXT="locomotive control unit,  LCU ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450806011164" ID="ID_1945471132" MODIFIED="1450809612396" TEXT="train management computer,  TMC ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450806031677" ID="ID_267355541" MODIFIED="1450806481937" TEXT="vital speed enforcement">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450806076303" ID="ID_1827992497" MODIFIED="1450806481937" TEXT="onboard unit">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450806133250" ID="ID_890172855" MODIFIED="1450806481937" TEXT="on-board unit">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450806200436" ID="ID_255325843" MODIFIED="1450806481937" TEXT="startup check">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450806246486" ID="ID_156295362" MODIFIED="1450806481937" TEXT="territory boundary, territory boundaries">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450806330282" ID="ID_1003943500" MODIFIED="1450809620378" TEXT="movement authority limits,  MALs ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450806421594" ID="ID_561635660" MODIFIED="1450806481937" TEXT="crew identification">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1451144909688" ID="ID_1294979001" MODIFIED="1451144967374" TEXT="  OBU ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1451144932206" ID="ID_396912991" MODIFIED="1451144962622" TEXT="on-board computer">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1451144945307" ID="ID_1305003768" MODIFIED="1451144957813" TEXT=" OBC ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1452029097013" ID="ID_1389323488" MODIFIED="1452029137067" TEXT="onboard,on-board,OBUs">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1452029106299" ID="ID_803848172" MODIFIED="1452029140881" TEXT="automated train protection">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449087373277" ID="11" MODIFIED="1451144985646" TEXT="computer display unit">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1450806837507" ID="ID_1518322791" MODIFIED="1450807557731" TEXT="LCD Monitor">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450806892623" ID="ID_1412818906" MODIFIED="1450807557731" TEXT="lamp failure">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450806975195" ID="ID_1805876257" MODIFIED="1450807557731" TEXT="dimming control">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450807129922" ID="ID_449584408" MODIFIED="1450807557731" TEXT="illumination">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450807142385" ID="ID_1477974306" MODIFIED="1450807557731" TEXT="viewing capabilities">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450807244531" ID="ID_1495311837" MODIFIED="1450807557731" TEXT="cdu-ni">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450807255667" ID="ID_1841513926" MODIFIED="1450807557730" TEXT="cdu-i">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1451144990717" ID="ID_643122743" MODIFIED="1451145000017" TEXT="  CDU ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449087373277" ID="51" MODIFIED="1451145026576" TEXT="human machine interface">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449111020968" ID="ID_1741413343" MODIFIED="1449422667861" TEXT="crew acknowledge">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449111044050" ID="ID_929242349" MODIFIED="1449422667861" TEXT="navigation">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449111064519" ID="ID_794521089" MODIFIED="1449422667861" TEXT="energy management">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449111076328" ID="ID_533378343" MODIFIED="1449422667861" TEXT="bulletin cancellation">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449114521358" ID="ID_1543500270" MODIFIED="1449422667861" TEXT="establish track location">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449114535351" ID="ID_1471153985" MODIFIED="1449422667861" TEXT="authority change request">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449114549219" ID="ID_1829074174" MODIFIED="1449422667861" TEXT="mandatory directive">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449114591963" ID="ID_1494762279" MODIFIED="1449422667861" TEXT="new bulletin">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449114607782" ID="ID_1784284126" MODIFIED="1449422667861" TEXT="enforcement">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449114621089" ID="ID_1116435052" MODIFIED="1449422667861" TEXT="PTC Territory">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449114636720" ID="ID_1904451992" MODIFIED="1449422667861" TEXT="park train">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449114644988" ID="ID_995873695" MODIFIED="1449422667861" TEXT="log off">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449114659730" ID="ID_1271029733" MODIFIED="1449422667861" TEXT="departure test">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449114737075" ID="ID_295419907" MODIFIED="1449422667861" TEXT="display map">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1451145012146" ID="ID_1681275191" MODIFIED="1451145033061" TEXT=" HMI ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449087373277" ID="52" MODIFIED="1449784696376" TEXT="event recorder">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449152676974" ID="ID_405399997" MODIFIED="1449422667861" TEXT="OEM Identifier">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449154659437" ID="ID_371407606" MODIFIED="1449422667861" TEXT="authorized personnel">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449183372314" ID="ID_255846783" MODIFIED="1450809635466" TEXT="event data acquisition process,  EDAP ">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449183603161" ID="ID_498779739" MODIFIED="1449422667861" TEXT="normalize data message">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449183701376" ID="ID_852960708" MODIFIED="1449422667861" TEXT="EMP Class D message format">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449183395772" ID="ID_393871532" MODIFIED="1450809639298" TEXT="Crashworthy memory module,  CMM ">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449183580552" ID="ID_491031879" MODIFIED="1449422667861" TEXT="data preservation">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449183925998" ID="ID_287140070" MODIFIED="1449422667861" TEXT="post-accident data recovery">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449184016645" ID="ID_696219866" MODIFIED="1449422667860" TEXT="download interface">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449184031212" ID="ID_1457859244" MODIFIED="1449422667860" TEXT="playback">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1450809231578" ID="ID_966360208" MODIFIED="1450809648568" TEXT="crash protected memory module">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450809291022" ID="ID_331656219" MODIFIED="1450809648568" TEXT="system brake warnings">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450809300638" ID="ID_592518744" MODIFIED="1450809648568" TEXT="system brake enforcements">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450809315213" ID="ID_1772220163" MODIFIED="1450809648568" TEXT="state">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1450809344931" ID="ID_1811546778" MODIFIED="1450809648568" TEXT="cut in">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450809350275" ID="ID_1847719937" MODIFIED="1450809648568" TEXT="cut out">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450809355316" ID="ID_1102142802" MODIFIED="1450809648568" TEXT="active">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450809360027" ID="ID_764289473" MODIFIED="1450809648568" TEXT="failed">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1450809455421" ID="ID_1507897904" MODIFIED="1450809670060" TEXT=" ER ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449091958721" ID="ID_216784842" MODIFIED="1451145064734" TEXT="remote control locomotive">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1450814267738" ID="ID_733326600" MODIFIED="1450815118969" TEXT="remote control operator, RCO">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450814435561" ID="ID_279021299" MODIFIED="1450815118969" TEXT="Remote control terminal, RCT ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450814476416" ID="ID_616721618" MODIFIED="1450815118969" TEXT="operator communications radio, OCR ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450814533427" ID="ID_1227993426" MODIFIED="1450817164591" TEXT="locomotive communication radio, LCR ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450814639469" ID="ID_1684481364" MODIFIED="1450815118968" TEXT="Repeater coordination server, RCS ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450815091123" ID="ID_1985683575" MODIFIED="1450817161176" TEXT="central coordination mode, CCM ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1451145069597" ID="ID_39300429" MODIFIED="1451145079806" TEXT="  RCL ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449155527054" ID="ID_1546448338" MODIFIED="1451145082237" TEXT="locomotive control, LCON ">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449155552697" ID="ID_151685885" MODIFIED="1449422667860" TEXT="cruise control">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449155565937" ID="ID_1745918938" MODIFIED="1449422667860" TEXT="engagine cruise control">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449155577247" ID="ID_268683886" MODIFIED="1449422667860" TEXT="cruise control operation">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449155586439" ID="ID_1206321002" MODIFIED="1449422667860" TEXT="disengaging cruise control">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449155638589" ID="ID_757235661" MODIFIED="1449422667860" TEXT="direct control">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449155662987" ID="ID_1184063738" MODIFIED="1449422667860" TEXT="engaging cruise control">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449155671395" ID="ID_27197325" MODIFIED="1449422667860" TEXT="direct control operation">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449155680083" ID="ID_785984695" MODIFIED="1449422667860" TEXT="disengaging direct control">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449155692885" ID="ID_355138024" MODIFIED="1449422667860" TEXT="monitor">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449261692716" ID="ID_905018262" MODIFIED="1449422667860" TEXT="train defect monitor">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449261752255" ID="ID_610558885" MODIFIED="1449422667860" TEXT="power switch">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449261769232" ID="ID_937009027" MODIFIED="1449422667860" TEXT="hand-operated switch">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449261784032" ID="ID_1512538020" MODIFIED="1449422667860" TEXT="track circuit">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449155711218" ID="ID_896279955" MODIFIED="1449422667860" TEXT="heartbeat">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449155745410" ID="ID_1561485543" MODIFIED="1449422667860" TEXT="message">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449155756961" ID="ID_46286899" MODIFIED="1449422667860" TEXT="command message">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449155764872" ID="ID_877388660" MODIFIED="1449422667860" TEXT="command response message">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449155775179" ID="ID_182764971" MODIFIED="1449422667860" TEXT="command module status request message">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449155791743" ID="ID_1787840011" MODIFIED="1449422667860" TEXT="command module status message">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449156017664" ID="ID_671125086" MODIFIED="1449422667860" TEXT="train line">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449156054267" ID="ID_1952087836" MODIFIED="1449422667860" TEXT="cab control, cab signal">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449260763828" ID="ID_1196014480" MODIFIED="1449422667860" TEXT="location management">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449260846321" ID="ID_168251582" MODIFIED="1449422667860" TEXT="track configuration">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449260883362" ID="ID_1263559360" MODIFIED="1449422667860" TEXT="permanent speed limits">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449261565310" ID="ID_957182471" MODIFIED="1449422667860" TEXT="location tracking">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449263235262" ID="ID_1003828282" MODIFIED="1449422667860" TEXT="crossing warning activation">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449261520293" ID="ID_1694241759" MODIFIED="1449422667860" TEXT="authority management">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449181226979" ID="ID_1497007583" MODIFIED="1450809692319" TEXT="motive power, power supply,distributed power,  DP ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449181455675" ID="ID_1769756036" MODIFIED="1449422667860" TEXT="event function logger">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449419820265" ID="ID_249687361" MODIFIED="1449422667860" TEXT="Work Vehicle Enforcement Module, WVEM">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449419963999" ID="ID_601044940" MODIFIED="1449422667860" TEXT="stop vehicle">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449784252060" ID="ID_494794932" MODIFIED="1449784455613" TEXT="bulletin management">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449784292252" ID="ID_1755967902" MODIFIED="1449784362759" TEXT="track out of service notification">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449784345414" ID="ID_778179653" MODIFIED="1449784362759" TEXT="grade crossing failure">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449261354829" ID="ID_1195219391" MODIFIED="1449422667860" TEXT="speed management">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449261362158" ID="ID_1065258266" MODIFIED="1450809715243" TEXT="speed, vital speed profile, VSP ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449261387944" ID="ID_723423984" MODIFIED="1450809720313" TEXT="intervention speed profile, ISP ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449261413993" ID="ID_346399805" MODIFIED="1450809725029" TEXT=" warning speed profile, WSP ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449261429506" ID="ID_1226155993" MODIFIED="1450809729131" TEXT="permanent speed restriction, PSR ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449261441970" ID="ID_474577137" MODIFIED="1450809733865" TEXT=" temporary speed restriction, TSR ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449261452458" ID="ID_542241898" MODIFIED="1449422667860" TEXT=" authorized speed">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1449181074883" ID="ID_1563120902" MODIFIED="1451145106841" TEXT="locomotive network">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449091021104" ID="ID_347238025" MODIFIED="1449422667860" TEXT="GPS Receiver">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1451145110308" ID="ID_1310014149" MODIFIED="1451145118712" TEXT=" LNET ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449413251625" ID="ID_150431903" MODIFIED="1450817191478" TEXT="ITCSM agent">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449181325153" ID="ID_1584338032" MODIFIED="1449422667860" TEXT="data storage">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449181335378" ID="ID_152760954" MODIFIED="1449422667860" TEXT="equipment monitor">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449181345427" ID="ID_1427429845" MODIFIED="1449422667860" TEXT="off-board communication">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449087373277" ID="3" MODIFIED="1450817216543" POSITION="right" TEXT="office segment, interoperable train control systems management, ITCSM ">
+<cloud/>
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449087373278" ID="47" MODIFIED="1449422667858" TEXT="dispatch system">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449263699370" ID="ID_1582645394" MODIFIED="1449422667858" TEXT="check authority">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449176044017" ID="ID_1944029463" MODIFIED="1449422667858" TEXT="movement authority">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449419033757" ID="ID_203126415" MODIFIED="1449846268732" TEXT="bulletin">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449419076554" ID="ID_1958044009" MODIFIED="1449422667858" TEXT="signal request">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449087373277" ID="28" MODIFIED="1449422667858" TEXT="crew acknowledge, crew operation">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449244507777" ID="ID_519825579" MODIFIED="1449422667858" TEXT="cancel file distribution">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449245216913" ID="ID_1557980712" MODIFIED="1449422667858" TEXT="distribute file">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449245239639" ID="ID_337699139" MODIFIED="1449422667858" TEXT="file transfer request">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449416594687" ID="ID_531049496" MODIFIED="1449422667858" TEXT="file transfer">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449417614895" ID="ID_395429294" MODIFIED="1450809795499" TEXT="maintenance of way protection,  MWP ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449846279577" ID="ID_1858676745" MODIFIED="1449846290866" TEXT="dispatcher message">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449846319218" ID="ID_1585563102" MODIFIED="1449846330618" TEXT="mandatory directive">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450809921546" ID="ID_712264766" MODIFIED="1450810272607" TEXT="train information">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1450809927507" ID="ID_1042294885" MODIFIED="1450810272607" TEXT="consist">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450809940209" ID="ID_994606712" MODIFIED="1450810272607" TEXT="location">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450809946313" ID="ID_1108317766" MODIFIED="1450810272607" TEXT="health status">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1450810097048" ID="ID_1667541458" MODIFIED="1450810272607" TEXT="rail operations control system, ROCS ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450810249792" ID="ID_1494001610" MODIFIED="1450810272607" TEXT="Speed restriction">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450810311556" ID="ID_1957589165" MODIFIED="1450810487529" TEXT="train location monitor">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450810338747" ID="ID_909981665" MODIFIED="1450810487529" TEXT="dispatching system">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450810505537" ID="ID_584995516" MODIFIED="1450810523336" TEXT="authority management">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449261275034" ID="ID_294289258" MODIFIED="1449422667856" TEXT="authority management">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449243414544" ID="ID_1653021152" MODIFIED="1451145228462" TEXT="Back office server">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449243506147" ID="ID_1989791960" MODIFIED="1450817239053" TEXT="interoperable system management protocol, ISMP ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449243545105" ID="ID_251327140" MODIFIED="1450809808700" TEXT="application gateway,  AG ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450810785857" ID="ID_1932305813" MODIFIED="1450811905836" TEXT="back office segment server">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450810797824" ID="ID_481330735" MODIFIED="1450811905837" TEXT="back office">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450811543718" ID="ID_416368776" MODIFIED="1450811905837" TEXT="track database management, track DB management">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450811580116" ID="ID_648000453" MODIFIED="1450811905837" TEXT="track bulletin">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450811600338" ID="ID_1028928082" MODIFIED="1450811905837" TEXT="train consist">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450811620369" ID="ID_872082964" MODIFIED="1450811905837" TEXT="braking characteristics">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450811640536" ID="ID_1203431838" MODIFIED="1450811905837" TEXT="region information">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450811834517" ID="ID_1193721820" MODIFIED="1450811905837" TEXT="movement authorities, MA ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449158200775" ID="ID_1923896910" MODIFIED="1449422667857" TEXT="data synchronization">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1450812666183" ID="ID_129144626" MODIFIED="1450812673246" TEXT="access control">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449243189101" ID="ID_835907312" MODIFIED="1451145302921" TEXT="key exchange service">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1450813201728" ID="ID_1516333557" MODIFIED="1450813316112" TEXT="operation private keys, OPK ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1451145289666" ID="ID_528231566" MODIFIED="1451145309670" TEXT=" KES ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1451145168023" ID="ID_1707311524" MODIFIED="1451145267828" TEXT="back office simulator, BO Sim">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1451145193551" ID="ID_119348804" MODIFIED="1451145271905" TEXT=" BOS ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1451145228462" ID="ID_1293154655" MODIFIED="1451145276431" TEXT="back office system">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1451145251385" ID="ID_1944317613" MODIFIED="1451145280622" TEXT="RR BO ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449244574086" ID="ID_635047619" MODIFIED="1451145410883" TEXT="system management agent">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449246466045" ID="ID_19312398" MODIFIED="1449422667858" TEXT="test harness">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449415617957" ID="ID_1965211253" MODIFIED="1449422667858" TEXT="kit rollback">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449245404366" ID="ID_1393749643" MODIFIED="1449422667856" TEXT="kit management">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449414178923" ID="ID_1887486346" MODIFIED="1449422667858" TEXT="bootstrap">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449414285361" ID="ID_466361376" MODIFIED="1449422667858" TEXT="security">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449414318381" ID="ID_1748269656" MODIFIED="1450809820653" TEXT="advanced encryption standard, AES ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449414345557" ID="ID_1192792542" MODIFIED="1450809824296" TEXT="Rivest Shamir Adleman,  RSA ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449414351453" ID="ID_351383201" MODIFIED="1450809827434" TEXT="Elliptical Curve Cryptography, ECC ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449414363022" ID="ID_1796896217" MODIFIED="1450809832092" TEXT="content encryption key, CEK ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449414378052" ID="ID_448860087" MODIFIED="1450809836404" TEXT="operational private key, OPK ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449414852505" ID="ID_237674258" MODIFIED="1450809840697" TEXT="one time use password, OTUP ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449245870482" ID="ID_958129333" MODIFIED="1449422667858" TEXT="asymmetric encryption">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449245889713" ID="ID_108285554" MODIFIED="1449422667858" TEXT="asymmetric signing">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1451145410883" ID="ID_265661934" MODIFIED="1451145451085" TEXT=" SMA ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1451145429486" ID="ID_1437242246" MODIFIED="1451145458986" TEXT=" ITCSM agent">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449246325473" ID="ID_664052727" MODIFIED="1449422667858" TEXT="generic logger">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449176002830" ID="ID_117555135" MODIFIED="1449422667857" TEXT="movement restriction">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449176813939" ID="ID_1847002761" MODIFIED="1450809849298" TEXT="uninterruptible power supply, UPS ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449242993240" ID="ID_408136135" MODIFIED="1449422667857" TEXT="network management system">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449243012311" ID="ID_1781871395" MODIFIED="1450813667768" TEXT="configuration management, CM ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449243175326" ID="ID_385155017" MODIFIED="1450809854801" TEXT="asset registry, AR ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449244197995" ID="ID_741990392" MODIFIED="1450811980410" TEXT="system management public key, system management private key, SMPK  ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449419322725" ID="ID_1980383445" MODIFIED="1449422667856" TEXT="database">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449419338336" ID="ID_1808269788" MODIFIED="1449422667855" TEXT="track database">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449419344665" ID="ID_1382219683" MODIFIED="1449422667855" TEXT="authorities database">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449419359455" ID="ID_83107119" MODIFIED="1449422667855" TEXT="bulletin database">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449419699899" ID="ID_1254513115" MODIFIED="1449422667855" TEXT="train location database">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+</node>
+<node CREATED="1449417250011" ID="ID_387977843" MODIFIED="1451145503085" POSITION="left" TEXT="employee in charge">
+<cloud/>
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449417529784" ID="ID_1267465050" MODIFIED="1450813097310" TEXT="communication based train control, CBTC ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449417655563" ID="ID_1744954194" MODIFIED="1450813093496" TEXT="work authorities, WA ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449417717048" ID="ID_939947730" MODIFIED="1450813104527" TEXT="Work Vehicle Enforcement  Module, WVEM ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449417908193" ID="ID_317598023" MODIFIED="1449422667855" TEXT="communication">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449418819960" ID="ID_437754810" MODIFIED="1450813111879" TEXT=" GPS ">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449418888565" ID="ID_1371346" MODIFIED="1449422667854" TEXT="location infomation">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449418833584" ID="ID_374107317" MODIFIED="1450817286029" TEXT=" WLAN ">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449418523660" ID="ID_795837811" MODIFIED="1449422667854" TEXT="WLAN WWAN gateway">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449418561257" ID="ID_790655280" MODIFIED="1449422667854" TEXT="gateway status">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1449418100762" ID="ID_575372764" MODIFIED="1449422667853" TEXT="interface with PTC">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449417954115" ID="ID_1383384968" MODIFIED="1449422667853" TEXT="to office segment">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449418151119" ID="ID_458286807" MODIFIED="1449422667853" TEXT="connection response">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449418194678" ID="ID_424049691" MODIFIED="1449422667853" TEXT="verified MWP">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449418226741" ID="ID_9415859" MODIFIED="1449422667853" TEXT="office segment status">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449418121735" ID="ID_1331470642" MODIFIED="1449422667853" TEXT="message model">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449418260990" ID="ID_409944490" MODIFIED="1449422667853" TEXT="connection request">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449418282411" ID="ID_1724087288" MODIFIED="1449422667853" TEXT="status report">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449418308880" ID="ID_961485074" MODIFIED="1449422667853" TEXT="office server ACK">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1449417963207" ID="ID_1087920460" MODIFIED="1449422667853" TEXT="to locomotive">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449418348495" ID="ID_1880139556" MODIFIED="1449422667853" TEXT="message model">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449418362816" ID="ID_375361485" MODIFIED="1449422667853" TEXT="train request">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449418380978" ID="ID_1750453387" MODIFIED="1449422667852" TEXT="locomotive ACK">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1449418428620" ID="ID_197230397" MODIFIED="1449422667852" TEXT="locomotive message">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1449418445954" ID="ID_1680913912" MODIFIED="1449422667851" TEXT="instruction">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1451145509377" ID="ID_1986003989" MODIFIED="1451145565906" TEXT=" portable remote terminal">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1451145536109" ID="ID_1610619773" MODIFIED="1451145571383" TEXT="  EIC ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1451145555531" ID="ID_1177979238" MODIFIED="1451145576029" TEXT="EIC PRT">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+</node>
+</map>

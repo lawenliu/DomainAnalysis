@@ -1,0 +1,8 @@
+C:\Users\lxl_t\Downloads\DomainAnalysis-tool\MaterialSkin\bin\Debug\MaterialSkin.dll
+C:\Users\lxl_t\Downloads\DomainAnalysis-tool\MaterialSkin\bin\Debug\MaterialSkin.pdb
+C:\Users\lxl_t\Downloads\DomainAnalysis-tool\MaterialSkin\obj\Debug\MaterialSkin.csprojAssemblyReference.cache
+C:\Users\lxl_t\Downloads\DomainAnalysis-tool\MaterialSkin\obj\Debug\MaterialSkin.Properties.Resources.resources
+C:\Users\lxl_t\Downloads\DomainAnalysis-tool\MaterialSkin\obj\Debug\MaterialSkin.csproj.GenerateResource.cache
+C:\Users\lxl_t\Downloads\DomainAnalysis-tool\MaterialSkin\obj\Debug\MaterialSkin.csproj.CoreCompileInputs.cache
+C:\Users\lxl_t\Downloads\DomainAnalysis-tool\MaterialSkin\obj\Debug\MaterialSkin.dll
+C:\Users\lxl_t\Downloads\DomainAnalysis-tool\MaterialSkin\obj\Debug\MaterialSkin.pdb

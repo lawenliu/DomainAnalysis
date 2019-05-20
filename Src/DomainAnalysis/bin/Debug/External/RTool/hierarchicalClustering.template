@@ -1,0 +1,7 @@
+library(MASS)
+temp = read.csv("{RInputFileNamePlaceHolder}", sep = ",",header = FALSE)
+A <- as.matrix(temp)
+d<- dist(A, method="canberra",upper=TRUE)
+r <- hclust(d,method = "complete")
+m <- r$merge
+write.matrix(m,"{ROuputFileNamePlaceHolder}", sep = " ")

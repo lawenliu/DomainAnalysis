@@ -1,0 +1,26 @@
+Topic 00:document contains:56180.63362178553
+Topic 01:display unit:19625.181733985926
+Topic 02:flashing light:73602.90713534388
+Topic 03:commuter rail:50539.018480219194
+Topic 04:operational status:98778.92846869104
+Topic 05:communicating train:83931.00507655658
+Topic 06:clearance points:41183.915086410896
+Topic 07:constants associated:23346.341359594742
+Topic 08:air brake:71464.79294526856
+Topic 09:railroads utilize:80682.89955575208
+Topic 10:cab signal:54999.64985141369
+Topic 11:speed restriction:110954.11781791195
+Topic 12:train consist:65749.00835050848
+Topic 13:route mile:137600.16816894844
+Topic 14:message type:64190.30830604909
+Topic 15:commodity grouping:26825.250881793523
+Topic 16:trackage rights:60820.93187717815
+Topic 17:normal position:37394.718031944096
+Topic 18:signal indications:182325.9669942766
+Topic 19:restricted speed:167863.7687752092
+Topic 20:provides infor:53164.97412785745
+Topic 21:failure mode:85661.78369649254
+Topic 22:brake cylinder:120660.20761677605
+Topic 23:messages received:85337.95989257607
+Topic 24:recommendations expressed:101463.56214745666
+

@@ -1,0 +1,12 @@
+C:\Users\lxl_t\Downloads\DomainAnalysis-tool\Drawing\bin\Debug\Microsoft.Msagl.Drawing.XML
+C:\Users\lxl_t\Downloads\DomainAnalysis-tool\Drawing\bin\Debug\Microsoft.Msagl.Drawing.dll
+C:\Users\lxl_t\Downloads\DomainAnalysis-tool\Drawing\bin\Debug\Microsoft.Msagl.Drawing.pdb
+C:\Users\lxl_t\Downloads\DomainAnalysis-tool\Drawing\bin\Debug\Microsoft.Msagl.dll
+C:\Users\lxl_t\Downloads\DomainAnalysis-tool\Drawing\bin\Debug\Microsoft.Msagl.pdb
+C:\Users\lxl_t\Downloads\DomainAnalysis-tool\Drawing\bin\Debug\Microsoft.Msagl.xml
+C:\Users\lxl_t\Downloads\DomainAnalysis-tool\Drawing\bin\Debug\Microsoft.Msagl.dll.config
+C:\Users\lxl_t\Downloads\DomainAnalysis-tool\Drawing\obj\Debug\Drawing.csprojAssemblyReference.cache
+C:\Users\lxl_t\Downloads\DomainAnalysis-tool\Drawing\obj\Debug\Drawing.csproj.CoreCompileInputs.cache
+C:\Users\lxl_t\Downloads\DomainAnalysis-tool\Drawing\obj\Debug\Drawing.csproj.CopyComplete
+C:\Users\lxl_t\Downloads\DomainAnalysis-tool\Drawing\obj\Debug\Microsoft.Msagl.Drawing.dll
+C:\Users\lxl_t\Downloads\DomainAnalysis-tool\Drawing\obj\Debug\Microsoft.Msagl.Drawing.pdb

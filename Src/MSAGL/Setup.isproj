@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<PropertyGroup>
+		<!-- Select a Product Configuration -->
+		<InstallShieldProductConfiguration>Express</InstallShieldProductConfiguration>
+		<!-- Select a Visual Studio Configuration / InstallShield Release -->
+		<Configuration>Debug</Configuration>
+		<InstallShieldRelease>$(Configuration)</InstallShieldRelease>
+	</PropertyGroup>
+	<ItemGroup>
+		<!-- The InstallShieldProject item selects the project to build -->
+		<InstallShieldProject Include="$(MSBuildProjectDirectory)\$(MSBuildProjectName).isl"/>
+		<!-- The InstallShieldReleaseFlags sets Release Flags -->
+		<!--<InstallShieldReleaseFlags Include=""/>-->
+		<!-- The InstallShieldMergeModulePath specifies what directories are
+		searched for Merge Modules -->
+		<!--<InstallShieldMergeModulePath Include=""/>-->
+	</ItemGroup>
+	<ItemGroup>
+		<!-- The ProjectReference items refer to any Visual Studio solutions you want to automatically probe for Project Output Groups.  -->
+	</ItemGroup>
+	<ItemGroup>
+		<!-- The TaggedOutputs items allow you to explicitly add extra files to output groups. Each item must include both Name and OutputGroup, as well as TargetPath metadata values. -->
+		<!--<TaggedOutputs Include="C:\My Test Exe.exe">
+			<Name>My Test Project</Name>
+			<OutputGroup>Primary output</OutputGroup>
+			<TargetPath>My Test Exe.exe</TargetPath>
+		</TaggedOutputs> -->
+	</ItemGroup>
+	<Import Project="$(MSBuildExtensionsPath32)\InstallShield\2015Limited\InstallShield.targets"/>
+	<ItemGroup>
+		<ProjectReference Include="..\DomainAnalysis\DomainAnalysis.csproj">
+			<Name>DomainAnalysis</Name>
+			<Project>{FF055050-0358-48C4-9830-ACFCDD314412}</Project>
+		</ProjectReference>
+		<ProjectReference Include="..\Drawing\Drawing.csproj">
+			<Name>Drawing</Name>
+			<Project>{B76F8F71-4B00-4242-BE36-C9F0732511F7}</Project>
+		</ProjectReference>
+		<ProjectReference Include="..\GraphViewerGDI\GraphViewerGDI.csproj">
+			<Name>GraphViewerGDI</Name>
+			<Project>{725CD2CB-CF37-414E-A5A6-F1D87D4D6EDE}</Project>
+		</ProjectReference>
+		<ProjectReference Include="..\MaterialSkin\MaterialSkin.csproj">
+			<Name>MaterialSkin</Name>
+			<Project>{8EB7611B-68CD-4B8B-987A-11717E2B250C}</Project>
+		</ProjectReference>
+		<ProjectReference Include="..\MSAGL\Msagl.csproj">
+			<Name>Msagl</Name>
+			<Project>{415D3E3F-7105-46C1-84D2-7ECB34213D92}</Project>
+		</ProjectReference>
+	</ItemGroup>
+</Project>
