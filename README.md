@@ -2,13 +2,13 @@
 
 Table of Contents
 -----------------
-1. [Environment Setup](#setup)
-1. [Using Instructions](#usage)
+1. [Requirements](#requirements)
+1. [Usage](#usage)
 1. [Structure](#structure)
 1. [Troubleshooting](#troubleshooting)
 
-Environment Setup
------------------
+Requirements
+------------
 Requirement Knowledge Mining tool (MaRK) is developed based on .Net Framework 4.5. You are required to install .Net Framework 4.5 firstly before installing our tool.
 MaRK also needs Office, Adobe Reader, Java, 7-Zip and R for implementing the related functions. We add some reference downloading URLs here:
 * Java: http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html (MaRK is using Stanford TMT for the topic modeling, which requires JDK 1.7). Tips:  If you fail at Running TMT step after you have setup JDK and added path to Environment Variable, you may need restart your computer and make sure your JDK can be accessed in normal command window instead of administrator command window.
@@ -17,7 +17,7 @@ MaRK also needs Office, Adobe Reader, Java, 7-Zip and R for implementing the rel
 *	Adobe Reader: https://get.adobe.com/reader/ 
 
 
-Using Instructions
+Usage
 ------------------
 ## Manual Model Based
 1. Open MaRK
