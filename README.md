@@ -51,7 +51,20 @@ Usage
 
 Structure
 ---------
-
+```
+.
+├── Src                         # Application source code
+|   ├── DomainAnalysis          # Main controllers, actions and windows for this project
+|   ├── Drawing                 # Components which used to generate diagram for domain models
+|   ├── GraphViewerGDI          # Components which also used to generate diagram for domain models
+|   ├── MSAGL                   # Components which also used to generate diagram for domain models
+|   ├── MaterialSkin            # Components to build beautiful UI
+|   ├── Setup                   # Setup project which used to generate setup package for windows system
+|   └── DomainAnalysis.sln      # Solution file of this project
+└── TestData                    # Test data used to run demo
+    ├── EHRDomainDocs           # Source documents to generate domain models 
+    └── manualModels            # Generated domain models which can be imported directly
+```
 Troubleshooting
 ---------------
 Developers: Xiaoli Lian, Li Zhang, Wenchuang Liu
