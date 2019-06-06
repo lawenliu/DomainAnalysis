@@ -49,6 +49,8 @@ Usage
 
 1.	Once the model has been created, the process for generating the highlighting and summary is same to that with manual model.
 
+For more instructions with screenshots, you can refer https://github.com/lawenliu/MaRK/blob/master/Src/DomainAnalysis/Resources/Files/ReadMe.pdf
+
 Structure
 ---------
 ```
